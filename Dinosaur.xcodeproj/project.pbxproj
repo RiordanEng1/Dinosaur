@@ -16,6 +16,8 @@
 		FA15749F225FDB65000B93E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA15749E225FDB65000B93E0 /* Assets.xcassets */; };
 		FA1574A2225FDB65000B93E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1574A0225FDB65000B93E0 /* LaunchScreen.storyboard */; };
 		FA1574AD225FDB65000B93E0 /* DinosaurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1574AC225FDB65000B93E0 /* DinosaurTests.swift */; };
+		FA1574B8225FDCB5000B93E0 /* Dinosaur.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1574B7225FDCB5000B93E0 /* Dinosaur.swift */; };
+		FABC1C522260ECBF0065CD4F /* Grass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABC1C512260ECBF0065CD4F /* Grass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		FA1574A8225FDB65000B93E0 /* DinosaurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinosaurTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1574AC225FDB65000B93E0 /* DinosaurTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinosaurTests.swift; sourceTree = "<group>"; };
 		FA1574AE225FDB65000B93E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1574B7225FDCB5000B93E0 /* Dinosaur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dinosaur.swift; sourceTree = "<group>"; };
+		FABC1C512260ECBF0065CD4F /* Grass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				FA157493225FDB64000B93E0 /* GameScene.sks */,
 				FA157495225FDB64000B93E0 /* Actions.sks */,
 				FA157497225FDB64000B93E0 /* GameScene.swift */,
+				FA1574B7225FDCB5000B93E0 /* Dinosaur.swift */,
+				FABC1C512260ECBF0065CD4F /* Grass.swift */,
 				FA157499225FDB64000B93E0 /* GameViewController.swift */,
 				FA15749B225FDB64000B93E0 /* Main.storyboard */,
 				FA15749E225FDB65000B93E0 /* Assets.xcassets */,
@@ -210,7 +216,9 @@
 			files = (
 				FA157498225FDB64000B93E0 /* GameScene.swift in Sources */,
 				FA15749A225FDB64000B93E0 /* GameViewController.swift in Sources */,
+				FA1574B8225FDCB5000B93E0 /* Dinosaur.swift in Sources */,
 				FA157492225FDB64000B93E0 /* AppDelegate.swift in Sources */,
+				FABC1C522260ECBF0065CD4F /* Grass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
